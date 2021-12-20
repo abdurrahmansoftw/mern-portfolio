@@ -8,7 +8,6 @@ const Pricing = () => {
     <div className='my-5'>
       <h2 className='fw-bold text-center my-3'>
         <i className='fas fa-tasks'></i> Pricing
-   
       </h2>
 
       <Row className='justify-content-center align-items-center'>

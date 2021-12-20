@@ -18,7 +18,7 @@ const PricingItems = ({ pricing }) => {
             </ListGroupItem>
           ))}
         </ListGroup>
-        <Link to='/Contact'>
+        <Link to='/contact'>
           <Button variant={pricing.buttonVariant} className='mt-3 col-12'>
             <i className='far fa-id-badge'></i> {pricing.buttonText}
           </Button>
