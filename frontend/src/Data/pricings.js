@@ -8,6 +8,7 @@ const pricings = [
     description: ['1 Page', 'React with Frontend UI', 'Design Customization', 'Responsive Design', 'Include Source Code'],
     buttonText: 'Contact',
     buttonVariant: 'outline-info',
+    shadow: 'shadow-sm',
   },
   {
     _id: '2',
@@ -30,6 +31,7 @@ const pricings = [
     description: ['7 Page', 'React with Frontend UI', 'Design Customization', 'Responsive Design', 'Include Source Code'],
     buttonText: 'Contact',
     buttonVariant: 'outline-info',
+    shadow: 'shadow-sm',
   },
 ]
 

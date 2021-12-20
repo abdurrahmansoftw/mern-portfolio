@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 const PricingItems = ({ pricing }) => {
   return (
-    <Card border='info' className='shadow text-center'>
+    <Card border='info' className={`${pricing.shadow} text-center`}>
       <Card.Header className='border-info fw-bold'>{pricing.title}</Card.Header>
       <Card.Body>
-        <ListGroup variant='flush' className='shadow-sm'>
+        <ListGroup variant='flush'>
           <ListGroupItem as='h4' key={pricing} className='fw-bold'>
             ${pricing.price}
           </ListGroupItem>
