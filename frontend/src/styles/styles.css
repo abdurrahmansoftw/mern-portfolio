@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* css custom properties */
+:root {
+  --primary: #171c2a;
+  --secondary: #dcf5f4;
+  --warning: #ffee05;
+  --dark: #000;
+  --blue: #09d4f8;
+  --green: #387bf7fd;
+  --light: #fff;
+  --red: #fa0a8e;
+  --gray-blue: #e5f7fc;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--light) !important ;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to left, var(--green), var(--blue));
+}
