@@ -69,7 +69,7 @@ const Login = () => {
 
       <Row className='py-3'>
         <Col>
-          Create Account? <Link to={redirect ? `/Registration?redirect=${redirect}` : '/Registration'}>Register</Link>
+          Create Account? <Link to={redirect ? `/registration?redirect=${redirect}` : '/Registration'}>Register</Link>
         </Col>
       </Row>
     </FormContainer>
