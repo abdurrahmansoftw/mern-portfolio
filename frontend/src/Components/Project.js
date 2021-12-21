@@ -7,7 +7,7 @@ const Project = ({ project }) => {
   return (
     <Card className='customCard card-profile'>
       <Card.Header className='card-header-image'>
-        <Link to={`/public-project-details/${project._id}`}>
+        <Link to={`/details/${project._id}`}>
           <Image fluid className='img' src={project.image} alt={project.category} title={project.category} />
         </Link>
         <div

@@ -6,8 +6,9 @@ const Profile = () => {
   return (
     <>
       {MyProfile.map((mp) => (
-        <Card className='shadow-sm bottom-0' key={mp._id}>
-          <Image variant='top' src={mp.image} fluid='true' alt={mp._id} rounded />
+        <Card className=' card-profile' key={mp._id}>
+          <Image variant='top' src={mp.image} fluid='true' alt={mp._id} rounded className='img' />
+
           <Card.Body>
             <a href={mp.github} target='_blank' rel='noreferrer' className='btn  btn-outline-dark col-12'>
               <i className='fab fa-github'></i> github
