@@ -10,7 +10,7 @@ const Pricing = () => {
         <i className='fas fa-tasks'></i> Pricing
       </h2>
 
-      <Row className='justify-content-center align-items-center'>
+      <Row className='gx-2 justify-content-center align-items-center'>
         {pricings.map((pricing) => (
           <Col xs={12} sm={6} md={4} lg={3} xl={3} className='fw-bold mb-5' key={pricing._id}>
             <PricingItems pricing={pricing} />

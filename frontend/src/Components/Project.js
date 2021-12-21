@@ -1,26 +1,38 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card, Image } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import Rating from '../Components/Rating'
 
 const Project = ({ project }) => {
   return (
-    <Link to={`details/${project._id}`}>
-      <Card className='shadow-sm border-0 h-100'>
-        <Card.Img variant='top' src={project.image} fluid='true' alt={project.name} />
-        <Card.Body>
-          <Card.Title as='h4' className='fw-bold border-info'>
-            {project.name}
-          </Card.Title>
-          <Card.Text className='text-muted'>
-            <strong>{project.type}</strong>: {project.category}
-          </Card.Text>
+    <Card className='customCard card-profile'>
+      <Card.Header className='card-header-image'>
+        <Link to={`/public-project-details/${project._id}`}>
+          <Image fluid className='img' src={project.image} alt={project.category} title={project.category} />
+        </Link>
+        <div
+          className='colored-shadow'
+          style={{
+            backgroundImage: 'url("https://zsuttonphoto.com/wp-content/uploads/2014/02/Albuquerque-Portrait-Photography-11.jpg")',
+            opacity: 1,
+          }}
+        />
+      </Card.Header>
+      <Card.Body>
+        <Card.Title>{project.client}</Card.Title>
+        <h6 className='card-category fw-bold text-gray'>{project.type}</h6>
+      </Card.Body>
 
-          <Card.Text className='border-info text-muted'>
-            <strong>Features:</strong> {project.features}
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Link>
+      <Card.Footer className='d-flex justify-content-between align-items-center '>
+        <Link to={`/details/${project._id}`} className='btn  fw-bold '>
+          Explore <i className='fas fa-angle-right'></i>
+        </Link>
+
+        <small>
+          <Rating value={project.rating} text={` ${project.numReviews} Reviews`} />
+        </small>
+      </Card.Footer>
+    </Card>
   )
 }
 

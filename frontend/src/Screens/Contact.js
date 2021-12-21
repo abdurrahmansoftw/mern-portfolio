@@ -21,51 +21,94 @@ const Contact = () => {
   return (
     <Row>
       <Col xs={12} lg={6}>
-        <Card className='h-100  border-0'>
+        <Card.Header as='h2' className='text-center border-0 my-3 fw-bold'>
+          <i className='far fa-envelope'></i> Contact With Me
+        </Card.Header>
+        <Card className=' mb-2'>
           <Card.Body>
-            <Card.Title as='h2' className='text-center border-0 my-3 fw-bold'>
-              <i className='fas fa-id-badge'></i> Contact With Me
-            </Card.Title>
-
-            <Card.Title className='fw-bold'>
-              <i className='fas fa-envelope'></i> Email:
-            </Card.Title>
-            <Card.Text>
-              <a href={`mailto:akaid.dev@gmail.com`} className='text-info fw-bold'>
-                akaid.dev@gmail.com
-              </a>
-            </Card.Text>
-
-            <Card.Title className='fw-bold'>
-              <i className='fas fa-phone-volume'></i> Phone:
-            </Card.Title>
-            <Card.Text className='text-info fw-bold'> +8801705952160, +8801722071791 </Card.Text>
-
-            <Card.Title className='fw-bold'>
-              <i className='fas fa-map-marker-alt'></i> Address:
-            </Card.Title>
-            <Card.Text className='text-info fw-bold'>COLLEGEPARA, DEBIGANJ, PANCHAGARH RANGPUR - Panchagarh </Card.Text>
-            <Card.Footer>
-              <a href='https://github.com/abdurrahmanakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
-                <i className='fab fa-github'></i> github
-              </a>
-              <a href='https://www.linkedin.com/in/akaid/' target='_blank' rel='noreferrer' className='btn m-2  btn-outline-dark'>
-                <i className='fab fa-linkedin'></i> Linked in
-              </a>
-              <a href='https://www.facebook.com/Abdur.rahman.akaid/' target='_blank' rel='noreferrer' className='btn btn-outline-dark'>
-                <i className='fab fa-facebook-square'></i> Facebook
-              </a>
-            </Card.Footer>
+            <Row>
+              <Col md={2}>
+                <h1 className='display-3'>
+                  <i className='fas fa-phone-volume'></i>
+                </h1>
+              </Col>
+              <Col md={10}>
+                <h5 className='fw-bold '> Phone Number </h5>
+                <p>01722071791</p>
+              </Col>
+            </Row>
           </Card.Body>
         </Card>
+
+        <Card className='mb-2'>
+          <Card.Body>
+            <Row>
+              <Col md={2}>
+                <h1 className='display-3'>
+                  <i className='fas fa-envelope'></i>
+                </h1>
+              </Col>
+              <Col md={10}>
+                <h5 className='fw-bold '> Email Me </h5>
+
+                <a href={`mailto:akaid.dev@gmail.com`} className='text-info fw-bold'>
+                  akaid.dev@gmail.com
+                </a>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+
+        <Card className='mb-2'>
+          <Card.Body>
+            <Row>
+              <Col md={2}>
+                <h1 className='display-3'>
+                  <i className='fas fa-map-marker-alt'></i>
+                </h1>
+              </Col>
+              <Col md={10}>
+                <h5 className='fw-bold '> Permanent Address </h5>
+                <p>COLLEGEPARA, DEBIGANJ, PANCHAGARH RANGPUR - Panchagarh</p>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+
+        <Card className='mb-2'>
+          <Card.Body>
+            <Row>
+              <Col md={2}>
+                <h1 className='display-3'>
+                  <i class='fas fa-street-view'></i>
+                </h1>
+              </Col>
+              <Col md={10}>
+                <h5 className='fw-bold '> Present Address </h5>
+                <p>Mirpur Dhaka</p>
+              </Col>
+            </Row>
+          </Card.Body>
+        </Card>
+
+        <Card.Footer>
+          <a href='https://github.com/abdurrahmanakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
+            <i className='fab fa-github'></i> github
+          </a>
+          <a href='https://www.linkedin.com/in/akaid/' target='_blank' rel='noreferrer' className='btn m-2  btn-outline-dark'>
+            <i className='fab fa-linkedin'></i> Linked in
+          </a>
+          <a href='https://www.facebook.com/Abdur.rahman.akaid/' target='_blank' rel='noreferrer' className='btn btn-outline-dark'>
+            <i className='fab fa-facebook-square'></i> Facebook
+          </a>
+        </Card.Footer>
       </Col>
       <Col xs={12} lg={6}>
         <Card className='shadow-sm border-0 h-100'>
+          <Card.Header as='h2' className='text-center border-0 my-3 fw-bold'>
+            <i className='far fa-envelope'></i> Get In Touch
+          </Card.Header>
           <Card.Body>
-            <Card.Title as='h2' className='text-center border-0 my-3 fw-bold'>
-              <i className='far fa-envelope'></i> Get In Touch
-            </Card.Title>
-
             <Form onSubmit={submitHandler} autoComplete='off'>
               <Form.Group as={Row} className='mb-3' controlId='Name'>
                 <Form.Label column sm='3'>
