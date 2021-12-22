@@ -28,10 +28,15 @@ function App() {
           <Route path='/search/:keyword' element={<Projects />} />
           <Route path='/page/:pageNumber' element={<Projects />} />
           <Route path='/search/:keyword/page/:pageNumber' element={<Projects />} />
+
           <Route path='/search/details/:id' element={<Details />} />
+
           <Route path='/details/:id' element={<Details />} />
+
           <Route path='/projects/details/:id' element={<Details />} />
+
           <Route path='/contact' element={<Contact />} />
+
           <Route path='/login' element={<Login />} />
           <Route path='/userProfile' element={<UserProfile />} />
           <Route path='/registration' element={<Registration />} />
@@ -40,6 +45,8 @@ function App() {
           <Route path='/admin/projectList' element={<ProjectList />} />
           <Route path='/admin/projectList/:pageNumber' element={<ProjectList />} />
           <Route path='/admin/project/:id/Edit' element={<ProjectEdit />} />
+
+          
           <Route path='*' element={<NotFopund />} />
         </Routes>
       </Container>
