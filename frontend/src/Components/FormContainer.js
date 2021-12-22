@@ -6,7 +6,7 @@ const FormContainer = ({ children }) => {
     <Container>
       <Row className='d-flex justify-content-center align-items-center my-5'>
         <Col xs={12} md={8} lg={7}>
-          <Card className='shadow-sm'>
+          <Card className='shadow'>
             <Card.Body>{children}</Card.Body>
           </Card>
         </Col>
