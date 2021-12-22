@@ -7,7 +7,7 @@ const pricings = [
     revision: 2,
     description: ['1 Page', 'React with Frontend UI', 'Design Customization', 'Responsive Design', 'Include Source Code'],
     buttonText: 'Contact',
-    buttonVariant: 'outline-info',
+    buttonVariant: 'outline-danger',
     shadow: 'shadow-sm',
   },
   {
@@ -19,7 +19,7 @@ const pricings = [
     revision: 3,
     description: ['3 Page', 'React with Frontend UI', 'Design Customization', 'Responsive Design', 'Include Source Code'],
     buttonText: 'Get Started',
-    buttonVariant: 'info',
+    buttonVariant: 'danger',
     shadow: 'shadow-lg',
   },
   {
@@ -30,7 +30,7 @@ const pricings = [
     revision: 5,
     description: ['7 Page', 'React with Frontend UI', 'Design Customization', 'Responsive Design', 'Include Source Code'],
     buttonText: 'Contact',
-    buttonVariant: 'outline-info',
+    buttonVariant: 'outline-danger',
     shadow: 'shadow-sm',
   },
 ]
