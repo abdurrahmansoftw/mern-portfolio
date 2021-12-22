@@ -21,16 +21,16 @@ const Contact = () => {
   return (
     <Row>
       <Col xs={12} lg={6}>
-        <Card.Header as='h2' className='text-center border-0 my-3 fw-bold'>
+        <Card.Header as='h3' className='text-center border-0 my-3 fw-bold'>
           <i className='far fa-envelope'></i> Contact With Me
         </Card.Header>
-        <Card className=' mb-2'>
+        <Card>
           <Card.Body>
             <Row>
               <Col md={2}>
-                <h1 className='display-3'>
+                <h3>
                   <i className='fas fa-phone-volume'></i>
-                </h1>
+                </h3>
               </Col>
               <Col md={10}>
                 <h5 className='fw-bold '> Phone Number </h5>
@@ -40,13 +40,13 @@ const Contact = () => {
           </Card.Body>
         </Card>
 
-        <Card className='mb-2'>
+        <Card>
           <Card.Body>
             <Row>
               <Col md={2}>
-                <h1 className='display-3'>
+                <h3>
                   <i className='fas fa-envelope'></i>
-                </h1>
+                </h3>
               </Col>
               <Col md={10}>
                 <h5 className='fw-bold '> Email Me </h5>
@@ -59,13 +59,13 @@ const Contact = () => {
           </Card.Body>
         </Card>
 
-        <Card className='mb-2'>
+        <Card>
           <Card.Body>
             <Row>
               <Col md={2}>
-                <h1 className='display-3'>
+                <h3>
                   <i className='fas fa-map-marker-alt'></i>
-                </h1>
+                </h3>
               </Col>
               <Col md={10}>
                 <h5 className='fw-bold '> Permanent Address </h5>
@@ -75,13 +75,13 @@ const Contact = () => {
           </Card.Body>
         </Card>
 
-        <Card className='mb-2'>
+        <Card>
           <Card.Body>
             <Row>
               <Col md={2}>
-                <h1 className='display-3'>
+                <h3>
                   <i class='fas fa-street-view'></i>
-                </h1>
+                </h3>
               </Col>
               <Col md={10}>
                 <h5 className='fw-bold '> Present Address </h5>
@@ -93,7 +93,7 @@ const Contact = () => {
       </Col>
       <Col xs={12} lg={6}>
         <Card className='shadow-sm border-0 h-100'>
-          <Card.Header as='h2' className='text-center border-0 my-3 fw-bold'>
+          <Card.Header as='h3' className='text-center border-0 my-3 fw-bold'>
             <i className='far fa-envelope'></i> Get In Touch
           </Card.Header>
           <Card.Body>

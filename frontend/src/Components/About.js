@@ -13,10 +13,10 @@ const About = () => {
               <i className='fas fa-user-tie'></i> Introduction
             </Card.Title>
 
-            <Card.Title as='h2' className='display-4 fw-bold text-info'>
+            <Card.Title as='h2' className='display-4 fw-bold text-danger'>
               {Introduction.name}
             </Card.Title>
-            <Card.Text as='h5' className='text-info fw-bold'>
+            <Card.Text as='h5' className='text-danger fw-bold'>
               {Introduction.designation}
             </Card.Text>
             <Card.Text as='h5' className='mt-5 fw-bold'>
