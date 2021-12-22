@@ -19,8 +19,8 @@ const Project = ({ project }) => {
         />
       </Card.Header>
       <Card.Body>
-        <Card.Title>{project.client}</Card.Title>
-        <h6 className='card-category fw-bold text-gray'>{project.type}</h6>
+        <Card.Title className='card-category fw-bold text-gray'>{project.type}</Card.Title>
+        <Card.Text as='h6'> {project.features}</Card.Text>
       </Card.Body>
 
       <Card.Footer className='d-flex justify-content-between align-items-center '>
