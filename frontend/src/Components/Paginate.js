@@ -10,7 +10,7 @@ const Paginate = ({ pages, page, isAdmin = false, keyword = '' }) => {
           <Pagination.Item
             as={Link}
             key={x + 1}
-            to={!isAdmin ? (keyword ? `/search/${keyword}/page/${x + 1}` : `/page/${x + 1}`) : `/admin/projectlist/${x + 1}`}
+            to={!isAdmin ? (keyword ? `/search/${keyword}/page/${x + 1}` : `/page/${x + 1}`) : `/admin/projectList/${x + 1}`}
             active={x + 1 === page}
           >
             {x + 1}

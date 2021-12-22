@@ -24,7 +24,7 @@ const Project = ({ project }) => {
       </Card.Body>
 
       <Card.Footer className='d-flex justify-content-between align-items-center '>
-        <Link to={`/details/${project._id}`} className='btn  fw-bold '>
+        <Link to={`/details/${project._id}`} className='btn fw-bold '>
           Explore <i className='fas fa-angle-right'></i>
         </Link>
 

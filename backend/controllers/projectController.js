@@ -139,4 +139,3 @@ const getTopProjects = asyncHandler(async (req, res) => {
 })
 
 export { getProjects, getProjectById, deleteProject, createProject, updateProject, createProjectReview, getTopProjects }
-

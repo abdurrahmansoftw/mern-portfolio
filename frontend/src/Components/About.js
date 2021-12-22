@@ -28,11 +28,11 @@ const About = () => {
               href='https://drive.google.com/file/d/1c0Ygbrhmxg5JrqhWyIuNV-R0T6CZIR8n/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
-              className='btn btn-outline-primary'
+              className='btn btn-danger'
             >
-              <i className='fas fa-download'></i> Download Resume
+              <i className='fas fa-download'></i> Resume
             </a>
-            <Link to='/Contact' className='btn btn-outline-dark m-1'>
+            <Link to='/Contact' className='btn btn-danger m-1'>
               <i className='far fa-id-badge'></i> Contact
             </Link>
           </Card.Body>

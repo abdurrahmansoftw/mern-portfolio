@@ -90,18 +90,6 @@ const Contact = () => {
             </Row>
           </Card.Body>
         </Card>
-
-        <Card.Footer>
-          <a href='https://github.com/abdurrahmanakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
-            <i className='fab fa-github'></i> github
-          </a>
-          <a href='https://www.linkedin.com/in/akaid/' target='_blank' rel='noreferrer' className='btn m-2  btn-outline-dark'>
-            <i className='fab fa-linkedin'></i> Linked in
-          </a>
-          <a href='https://www.facebook.com/Abdur.rahman.akaid/' target='_blank' rel='noreferrer' className='btn btn-outline-dark'>
-            <i className='fab fa-facebook-square'></i> Facebook
-          </a>
-        </Card.Footer>
       </Col>
       <Col xs={12} lg={6}>
         <Card className='shadow-sm border-0 h-100'>
@@ -153,6 +141,17 @@ const Contact = () => {
               </Form.Group>
             </Form>
           </Card.Body>
+          <Card.Footer>
+            <a href='https://github.com/abdurrahmanakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
+              <i className='fab fa-github'></i> github
+            </a>
+            <a href='https://www.linkedin.com/in/akaid/' target='_blank' rel='noreferrer' className='btn m-2  btn-outline-dark'>
+              <i className='fab fa-linkedin'></i> Linked in
+            </a>
+            <a href='https://www.facebook.com/Abdur.rahman.akaid/' target='_blank' rel='noreferrer' className='btn btn-outline-dark'>
+              <i className='fab fa-facebook-square'></i> Facebook
+            </a>
+          </Card.Footer>
         </Card>
       </Col>
     </Row>

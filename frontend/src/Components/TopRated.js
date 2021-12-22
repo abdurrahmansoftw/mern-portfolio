@@ -29,7 +29,7 @@ const TopRated = () => {
           </h2>
         </Col>
         <Col className='d-md-flex justify-content-md-end'>
-          <Link to='/Projects' className='btn btn-outline-primary'>
+          <Link to='/Projects' className='btn btn-danger'>
             <i className='far fa-gem'></i> All Project
           </Link>
         </Col>
