@@ -46,7 +46,6 @@ function App() {
           <Route path='/admin/projectList/:pageNumber' element={<ProjectList />} />
           <Route path='/admin/project/:id/Edit' element={<ProjectEdit />} />
 
-          
           <Route path='*' element={<NotFopund />} />
         </Routes>
       </Container>

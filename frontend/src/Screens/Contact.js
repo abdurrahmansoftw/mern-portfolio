@@ -142,7 +142,7 @@ const Contact = () => {
             </Form>
           </Card.Body>
           <Card.Footer>
-            <a href='https://github.com/abdurrahmanakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
+            <a href='https://github.com/ARakaid' target='_blank' rel='noreferrer' className='btn   btn-outline-dark'>
               <i className='fab fa-github'></i> github
             </a>
             <a href='https://www.linkedin.com/in/akaid/' target='_blank' rel='noreferrer' className='btn m-2  btn-outline-dark'>
