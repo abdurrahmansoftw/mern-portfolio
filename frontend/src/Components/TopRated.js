@@ -29,7 +29,7 @@ const TopRated = () => {
           </h2>
         </Col>
         <Col className='d-md-flex justify-content-md-end'>
-          <Link to='/Projects' className='btn btn-danger'>
+          <Link to='/projects' className='btn btn-danger'>
             <i className='far fa-gem'></i> All Project
           </Link>
         </Col>
@@ -43,7 +43,7 @@ const TopRated = () => {
         <>
           <Row>
             {projects.map((project) => (
-              <Col xs={12} sm={6} md={6} lg={6} xl={4} key={project._id} className='my-3'>
+              <Col xs={12} sm={6} md={6} lg={4} xl={3} key={project._id} className='my-3'>
                 <Project project={project} />
               </Col>
             ))}

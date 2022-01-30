@@ -10,26 +10,19 @@ const Project = ({ project }) => {
         <Link to={`/details/${project._id}`}>
           <Image fluid className='img' src={project.image} alt={project.category} title={project.category} />
         </Link>
-        <div
-          className='colored-shadow'
-          style={{
-            backgroundImage: 'url("https://zsuttonphoto.com/wp-content/uploads/2014/02/Albuquerque-Portrait-Photography-11.jpg")',
-            opacity: 1,
-          }}
-        />
       </Card.Header>
       <Card.Body>
         <Card.Title className='card-category fw-bold text-gray'>{project.type}</Card.Title>
         <Card.Text as='h6'> {project.features}</Card.Text>
       </Card.Body>
 
-      <Card.Footer className='d-flex justify-content-between align-items-center '>
-        <Link to={`/details/${project._id}`} className='btn fw-bold '>
+      <Card.Footer className='d-flex justify-content-between align-items-center text-light bg-dark'>
+        <Link to={`/details/${project._id}`} className='btn fw-bold text-light'>
           Explore <i className='fas fa-angle-right'></i>
         </Link>
 
         <small>
-          <Rating value={project.rating} text={` ${project.numReviews} Reviews`} />
+          <Rating value={project.rating} text={` ${project.numReviews} `} />
         </small>
       </Card.Footer>
     </Card>

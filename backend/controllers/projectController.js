@@ -8,7 +8,7 @@ const router = express.Router()
 // @access  Public
 
 const getProjects = asyncHandler(async (req, res) => {
-  const pageSize = 9
+  const pageSize = 12
   const page = Number(req.query.pageNumber) || 1
 
   const keyword = req.query.keyword ? { name: { $regex: req.query.keyword, $options: 'i' } } : {}
@@ -134,7 +134,7 @@ const createProjectReview = asyncHandler(async (req, res) => {
 // @access  Public
 
 const getTopProjects = asyncHandler(async (req, res) => {
-  const projects = await Project.find({}).sort({ rating: -1 }).limit(6)
+  const projects = await Project.find({}).sort({ rating: -1 }).limit(8)
   res.json(projects)
 })
 

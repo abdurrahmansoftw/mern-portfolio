@@ -7,7 +7,7 @@ const projects = [
     rating: '5',
     category: 'Landing and ecommerce',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4.5',
+    numReviews: '5',
     live: 'https://booking-mernstack.herokuapp.com',
     source: 'https://github.com/abdurrahmanakaid/Booking',
     description:
@@ -27,16 +27,61 @@ const projects = [
     description:
       'Feature an eCommerce platform with React, Redux, Node, Express & MongoDB.Full featured shopping cart with PayPal & credit/debit payments.An actual real-world project built in a linear and progressive manner. Admin area to manage customers, products & orders.Product rating & review system , Product search, carousel, pagination & more.',
   },
+
+  {
+    image: '/image/github-finding.png',
+    type: 'React',
+    name: 'Github finding App',
+    features: 'Javascript, React, Context-api, styled-conponent',
+    rating: '5',
+    category: 'Landing',
+    supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
+    numReviews: '5',
+    live: 'https://github-finding.netlify.app/',
+    source: 'https://github.com/akaiddev/git-finder',
+    description:
+      'GithubHunt is a simple github finder tool, built with reactjs, to provide github users with a simple access of features like – search user, most followed users,',
+  },
+  {
+    image: '/image/dontos.png',
+    type: 'React',
+    name: 'React Dantos',
+    features: 'Javascript, React, Context-api, styled-conponent',
+    rating: '5',
+    category: 'Landing',
+    supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
+    numReviews: '5',
+    live: 'https://dontos.netlify.app',
+    source: 'https://github.com/akaiddev/donto',
+    description:
+      'DONTO S.A. is located in Don Torcuato, BUENOS AIRES, Argentina and is part of the Textile Furnishings Mills Industry. DONTO S.A. has 422 total employees across all of its locations and generates $30.65 million in sales (USD). There are 2 companies in the DONTO S.A. corporate family.',
+  },
+
+  {
+    image: '/image/artistics.png',
+    type: 'React',
+    name: 'Artistics',
+    features: 'Javascript, React, Context-api, styled-conponent',
+    rating: '5',
+    category: 'Landing',
+    supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
+    numReviews: '4',
+    live: 'https://artistics.netlify.app/',
+    source: 'https://github.com/akaiddev/Artistic',
+    description:
+      'of, relating to, or characteristic of art or artists artistic subjects an artistic success. 2 : showing imaginative skill in arrangement or execution artistic photography. Other Words from artistic Synonyms & Antonyms More Example Sentences Learn More About artistic.',
+  },
+
   {
     image: '/image/notebook.png',
     type: 'MERN-Stack',
     name: 'Notebook MERN-Stack',
     features: 'Javascript, React, Redux, Node.js, Express, Mongoose',
-    rating: '3.5',
+    rating: '5',
 
     category: 'Landing & Infomation',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4.5',
+    numReviews: '4',
     live: 'https://notebook-mernstack.herokuapp.com/',
     source: 'https://github.com/abdurrahmanakaid/Notebook',
     description:
@@ -50,7 +95,7 @@ const projects = [
     rating: '5',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4',
+    numReviews: '5',
 
     live: 'https://disco-akaid.vercel.app',
     source: 'https://github.com/abdurrahmanakaid/disco',
@@ -62,10 +107,10 @@ const projects = [
     type: 'Frontend',
     name: 'eStartup',
     features: 'Javascript, React',
-    rating: '4.5',
+    rating: '3',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '5',
+    numReviews: '3',
     live: 'https://estartup-react.netlify.app/',
     source: 'https://github.com/abdurrahmanakaid/eStartup',
     description:
@@ -79,7 +124,7 @@ const projects = [
     rating: '4',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '5',
+    numReviews: '4',
     live: 'https://theevent-react.netlify.app/',
     source: 'https://github.com/abdurrahmanakaid/TheEvent',
     description:
@@ -93,7 +138,7 @@ const projects = [
     rating: '3',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4.5',
+    numReviews: '2',
     live: 'https://hostguru.netlify.app/',
     source: 'https://github.com/abdurrahman200/Host-Guru-Frontend',
     description:
@@ -104,10 +149,10 @@ const projects = [
     type: 'Frontend',
     name: 'Stack CLI Hosting Provider',
     features: 'Javascript, React',
-    rating: '4',
+    rating: '3',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '5',
+    numReviews: '2',
     live: 'https://stack-react.netlify.app/',
     source: 'https://github.com/abdurrahmanakaid/StackPractice',
 
@@ -122,7 +167,7 @@ const projects = [
     rating: '4',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4.5',
+    numReviews: '4',
     live: 'https://world-travelers.netlify.app/',
     source: 'https://github.com/abdurrahman200/Travel',
     description:
@@ -136,7 +181,7 @@ const projects = [
     rating: '3',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '4',
+    numReviews: '2',
     live: 'https://doctor-chai.netlify.app',
     source: 'https://github.com/abdurrahmanakaid/Doctor',
     description:
@@ -147,10 +192,10 @@ const projects = [
     type: 'Frontend',
     name: 'DAY',
     features: 'Javascript, React,',
-    rating: '4',
+    rating: '3',
     category: 'Landing & Corporate',
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
-    numReviews: '5',
+    numReviews: '3',
     live: 'https://day-react.netlify.app/',
     source: 'https://github.com/abdurrahmanakaid/Day',
     description:
