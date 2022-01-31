@@ -25,7 +25,7 @@ const About = () => {
             <Card.Text>{Introduction.summary}</Card.Text>
 
             <a
-              href='https://drive.google.com/file/d/1c0Ygbrhmxg5JrqhWyIuNV-R0T6CZIR8n/view?usp=sharing'
+              href='https://drive.google.com/file/d/1NqV7kYiRgI94BckqbT7YZsHpfwRJ7Bu1/view?usp=sharing'
               target='_blank'
               rel='noreferrer'
               className='btn btn-danger'
