@@ -12,7 +12,7 @@ const Project = ({ project }) => {
         </Link>
       </Card.Header>
       <Card.Body>
-        <Card.Title className='card-category fw-bold text-gray'>{project.type}</Card.Title>
+        <Card.Title className='card-category fw-bold text-gray'>{project.name}</Card.Title>
         <Card.Text as='h6'> {project.features}</Card.Text>
       </Card.Body>
 
