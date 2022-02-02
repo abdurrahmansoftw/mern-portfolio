@@ -37,7 +37,6 @@ const UserList = () => {
     <>
       <h1 className='fw-bold my-5'>
         <i className='fas fa-user-alt'></i> User List
-       
       </h1>
       {loading ? (
         <Loader />
@@ -55,19 +54,15 @@ const UserList = () => {
             </tr>
           </thead>
           <tbody>
-            {users.map((user) => (
+            {users.map((user, index) => (
               <tr key={user._id}>
-                <td>{user._id}</td>
+                <td>{index + 1}</td>
                 <td>{user.name}</td>
                 <td>
                   <a href={`mailto:${user.email}`}>{user.email}</a>
                 </td>
                 <td>
-                  {user.isAdmin ? (
-                    <i className='fas fa-check' style={{ color: 'green' }}></i>
-                  ) : (
-                    <i className='fas fa-times' style={{ color: 'red' }}></i>
-                  )}
+                  {user.isAdmin ? <i className='fas fa-check' style={{ color: 'green' }}></i> : <i className='fas fa-times' style={{ color: 'red' }}></i>}
                 </td>
                 <td>
                   <Link to={`/admin/user/${user._id}/edit`}>
