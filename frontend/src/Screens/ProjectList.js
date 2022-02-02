@@ -59,7 +59,6 @@ const ProjectList = () => {
         <Col>
           <h1 className='fw-bold my-4'>
             <i className='fas fa-briefcase'></i> Project List
-          
           </h1>
         </Col>
         <Col className='text-right'>
@@ -88,19 +87,25 @@ const ProjectList = () => {
                 <th>NAME</th>
                 <th>TYPE</th>
                 <th>CATEGORY</th>
+                <th>features</th>
+                <th>rating</th>
+                <th>Reviews</th>
                 <th>ACTIONS</th>
               </tr>
             </thead>
             <tbody>
-              {projects.map((project) => (
+              {projects.map((project, index) => (
                 <tr key={project._id}>
-                  <td>{project._id}</td>
+                  <td>{index + 1}</td>
                   <td>
                     <Image src={project.image} alt={project.name} rounded width='80' height='40' />
                   </td>
                   <td>{project.name}</td>
                   <td>{project.type}</td>
                   <td>{project.category}</td>
+                  <td>{project.features}</td>
+                  <td>{project.rating}</td>
+                  <td>{project.numReviews}</td>
 
                   <td>
                     <Link to={`/admin/project/${project._id}/edit`}>
