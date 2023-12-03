@@ -9,7 +9,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '5',
     live: 'https://booking-mernstack.herokuapp.com',
-    source: 'https://github.com/abdurrahmanakaid/Booking',
+    source: 'https://github.com/akaiddev/Booking',
     description:
       'Feature an Hotel Booking platform with React, Redux, Node, Express & MongoDB.Full featured Booking cart with PayPal & credit/debit payments.An actual real-world project built in a linear and progressive manner.Admin area to manage customers, room & orders. Room rating & review system, Room search, carousel, pagination & more.',
   },
@@ -23,7 +23,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '5',
     live: 'https://gadgetworldsdp.herokuapp.com',
-    source: 'https://github.com/abdurrahmanakaid',
+    source: 'https://github.com/akaiddev',
     description:
       'Feature an eCommerce platform with React, Redux, Node, Express & MongoDB.Full featured shopping cart with PayPal & credit/debit payments.An actual real-world project built in a linear and progressive manner. Admin area to manage customers, products & orders.Product rating & review system , Product search, carousel, pagination & more.',
   },
@@ -83,7 +83,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '4',
     live: 'https://notebook-mernstack.herokuapp.com/',
-    source: 'https://github.com/abdurrahmanakaid/Notebook',
+    source: 'https://github.com/akaiddev/Notebook',
     description:
       'Feature Notebook app platform with React, Redux, Node, Express & MongoDB. An actual real-world project built in a linear and progressive manner. Note Crud Operations with authenticaion and image uploading use Cloudinary. Deploy to production using Heroku.',
   },
@@ -98,7 +98,7 @@ const projects = [
     numReviews: '5',
 
     live: 'https://disco-akaid.vercel.app',
-    source: 'https://github.com/abdurrahmanakaid/disco',
+    source: 'https://github.com/akaiddev/disco',
     description:
       'Build a Disco event application from start to finish. fundamentals of NextJS.Create a backend using Strapi CMS,JWT Authentication / HttpOnly Cookie Storage.Pagination, search, image uploading with Cloudinary',
   },
@@ -112,7 +112,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '3',
     live: 'https://estartup-react.netlify.app/',
-    source: 'https://github.com/abdurrahmanakaid/eStartup',
+    source: 'https://github.com/akaiddev/eStartup',
     description:
       'Welcome to eStartup A startup or start-up is a company or project undertaken by an entrepreneur to seek, develop, and validate a scalable business model. & more',
   },
@@ -126,7 +126,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '4',
     live: 'https://theevent-react.netlify.app/',
-    source: 'https://github.com/abdurrahmanakaid/TheEvent',
+    source: 'https://github.com/akaiddev/TheEvent',
     description:
       'About The Event Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt inventore in est ut optio sequi under',
   },
@@ -154,7 +154,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '2',
     live: 'https://stack-react.netlify.app/',
-    source: 'https://github.com/abdurrahmanakaid/StackPractice',
+    source: 'https://github.com/akaiddev/StackPractice',
 
     description:
       'Welcome to the best platform for building applications of all types with modern architecture and scaling.Easier Deployment Deploy web apps of all kinds, from large scale enterprise APIs to static websites for individuals. Fill out the form to try a demo of our platform.',
@@ -183,7 +183,7 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '2',
     live: 'https://doctor-chai.netlify.app',
-    source: 'https://github.com/abdurrahmanakaid/Doctor',
+    source: 'https://github.com/akaiddev/Doctor',
     description:
       'A patient portal is a website for your personal health care. The online tool helps you to keep track of your health care provider visits, test results, billing, prescriptions, and so on. You can also e-mail your provider questions through the portal. Many providers now offer patient portals.,CSS Flexbox Sass or Scss, React JS library Context API React RoutingVanilla javascript scroll animations.Accordion with pure React js ,Image lazy loading with React js.SEO optimized React pages with Helmet',
   },
@@ -197,10 +197,10 @@ const projects = [
     supported: '1 year of free updates 6 months technical support, 100% money-back guarantee*',
     numReviews: '3',
     live: 'https://day-react.netlify.app/',
-    source: 'https://github.com/abdurrahmanakaid/Day',
+    source: 'https://github.com/akaiddev/Day',
     description:
       'WELCOME TO DAY We are team of talented designers making websites with Bootstrap.Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.',
   },
-]
+];
 
-export default projects
+export default projects;
